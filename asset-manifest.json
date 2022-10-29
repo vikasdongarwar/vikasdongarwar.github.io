@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.6979f190.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.8842bea7.css",
+    "main.js": "/static/js/main.cb15502d.js",
+    "static/js/787.b14adbe2.chunk.js": "/static/js/787.b14adbe2.chunk.js",
+    "static/media/vikasImage.jpg": "/static/media/vikasImage.a6df2f1eaf6b672e19b3.jpg",
+    "static/media/anthropologie.png": "/static/media/anthropologie.65329539ac40c28357c1.png",
+    "static/media/VikasDongarwar.pdf": "/static/media/VikasDongarwar.c69ae34f0bbd730bed12.pdf",
+    "static/media/getharvest.png": "/static/media/getharvest.7381707e5a15fdb67b74.png",
+    "static/media/expedia.PNG": "/static/media/expedia.812d030fcc91d07418ce.PNG",
+    "static/media/webdev.svg": "/static/media/webdev.4d72dbba32efee3890cef9bcacce7aa7.svg",
+    "static/media/cloudBg.png": "/static/media/cloudBg.f28b5c6961fd82be839c.png",
+    "static/media/cloudDark.png": "/static/media/cloudDark.51edaa54cabe7b964ae9.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.6979f190.js.map": "/static/js/main.6979f190.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.8842bea7.css.map": "/static/css/main.8842bea7.css.map",
+    "main.cb15502d.js.map": "/static/js/main.cb15502d.js.map",
+    "787.b14adbe2.chunk.js.map": "/static/js/787.b14adbe2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6979f190.js"
+    "static/css/main.8842bea7.css",
+    "static/js/main.cb15502d.js"
   ]
 }
