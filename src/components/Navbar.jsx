@@ -49,7 +49,7 @@ const Navbar = () => {
             : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
       >
-        <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
+        <div  className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
             <a
               href="/"
@@ -64,9 +64,9 @@ const Navbar = () => {
             </a>
           </div>
           <div className="hidden justify-between items-center w-full md:flex md:w-auto ">
-            <ul
+            <ul 
               className={
-                "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
+                "flex flex-col mt-4 md:flex-row md:space-x-3 lg:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
               {links.map((el, i) => (
@@ -138,8 +138,8 @@ const Navbar = () => {
             />
           </div>
         </div>
-        {/* Mobile view nav bar */}
       </nav>
+      {/* Mobile view nav bar */}
       <AnimatePresence>
         {toggle && (
           <motion.div
@@ -170,6 +170,11 @@ const Navbar = () => {
                   <li>{el.name}</li>
                 </Link>
               ))}
+              <a className={
+                      darkMode
+                        ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
+                        : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                    } href="https://drive.google.com/file/d/1pNVdYWb4dIqKoryYfiHFsypd4Zst5zwp/view" target="_blank">Go To Resume</a>
             </ul>
           </motion.div>
         )}

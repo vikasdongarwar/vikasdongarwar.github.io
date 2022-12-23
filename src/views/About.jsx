@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techSktackF, techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import heroBg from "../assets/vikasImage.jpg";
+import heroBg from "../assets/vikasImage.png";
 import GitHubCalendar from "react-github-calendar";
 const About = () => {
   const theme = useContext(ThemeContext);
@@ -46,9 +46,10 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="lg:w-1/4 sm:w-1/4 md:w-1/4 m-auto mt-5 lg:mt-[-1rem] rounded-full ...">
+              <div style={{ width:'200px'}} className="lg:w-1/4 sm:w-1/4 md:w-1/4 m-auto mt-5 lg:mt-[-1rem] ">
                 <img
-                  className="rounded-full ..."
+                style={{borderRadius:"5px", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}
+                  // className="rounded-full ..."
                   src={heroBg}
                   alt="Profile_Image"
                 />

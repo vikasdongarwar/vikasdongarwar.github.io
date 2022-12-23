@@ -4,8 +4,9 @@ import { TypeAnimation } from "react-type-animation";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import cloud from "../assets/cloudBg.png";
-import cloudDark from "../assets/cloudDark.png";
+import cloud from "../assets/cloudBg2.jpg";
+import cloudDark from "../assets/cloudDark2.jpg";
+import trans from "../assets/trans1.png";
 import vikas from "./VikasDongarwar.pdf";
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -96,7 +97,7 @@ const Home = () => {
               },
               hidden: { opacity: 1, y: 80 },
             }}
-            src={heroBg}
+            // src={heroBg}
             alt=""
             className="md:w-3/6 hidden  sm:block m-auto "
           />
