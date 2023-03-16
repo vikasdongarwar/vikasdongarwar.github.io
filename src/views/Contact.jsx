@@ -112,7 +112,7 @@ const Contact = () => {
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              +91 8285631499
+              +91 8208062789
             </a>
             <h1 className="text-3xl font-bold">Email</h1>
             <a
