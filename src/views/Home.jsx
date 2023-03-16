@@ -21,7 +21,7 @@ const Home = () => {
         }
       >
         <main
-          className=" mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col justify-center md:flex-row items-center md:justify-between h-screen"
+          className=" mx-auto max-w-7xl px-4 sm:px-6 py-20 md:mt-0 lg:px-8 flex flex-col justify-center md:flex-row items-center md:justify-between h-screen"
           id="/"
         >
           <div className="  sm:text-center lg:text-left">
