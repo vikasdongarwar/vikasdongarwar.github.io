@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { techSktackF, techStack } from "../constants";
+import { techStackF, techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import heroBg from "../assets/vikasImage.png";
@@ -84,7 +84,7 @@ const About = () => {
             Frontend
           </h4>
           <motion.div className="flex flex-wrap mt-8 justify-between ">
-            {techSktackF.map((el, index) => (
+            {techStackF.map((el, index) => (
               <motion.div
                 key={index}
                 initial="hidden"
